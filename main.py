@@ -692,7 +692,7 @@ async def txt_handler(bot: Client, m: Message):
         pwtoken = "pwtoken"
     else:
         cwtoken = raw_text4
-        cptoken = raw_text4
+        cptoken = https://drmapijion-botupdatevip.vercel.app/api?url={url}&token={raw_text4}
         pwtoken = raw_text4
         
     await editable.edit(f"**Send the Video Thumb URL or send /d**")
