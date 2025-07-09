@@ -387,7 +387,7 @@ async def restart_handler(_, m):
         os.execl(sys.executable, sys.executable, *sys.argv)
         
 
-@bot.on_message(filters.command("start"))
+@bot.on_message(filters.command("pro"))
 async def start(bot, m: Message):
     user = await bot.get_me()
     mention = user.mention
